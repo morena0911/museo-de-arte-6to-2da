@@ -1,0 +1,258 @@
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eee6e6;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+h2{
+    font-size: 200%;
+}
+h1{
+    font-size: 400%;
+}
+
+/* Estilos específicos de cada sección */
+.intro, .highlights, .exhibitions, .contact {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.exhibition {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #201d1d;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+.boton{} 
+    button {
+        height: 50px;
+        margin: 5px;
+        width: 120px;
+        background: #333;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        cursor: pointer;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-family: Consolas, Courier New, monospace;
+        border: solid #404c5d 1px;
+        font-size: 16px;
+        color: rgb(161, 161, 161);
+        -webkit-transition: 500ms;
+        transition: 500ms;
+        border-radius: 5px;
+        background: linear-gradient(145deg, #2e2d2d, #212121);
+        -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+          inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+        box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+          inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+      }
+      
+      button:hover {
+        -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+        box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+        color: #d6d6d6;
+        -webkit-transition: 500ms;
+        transition: 500ms;
+      }
+      
+      button:active {
+        -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+        box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+        color: #d6d6d6;
+        -webkit-transition: 100ms;
+        transition: 100ms;
+      }
+    
+.plano{
+    text-align: center; border: 2px;
+    width: auto;
+    height: auto;
+
+}
+.HOLAA{
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+.WOW{
+    width: auto;
+    height: auto;
+    
+    border-radius: 10px; 
+}
+.MIAU{
+    width: auto;
+    height: auto;
+   
+    border-radius: 10px; 
+}
+.PERRO{
+     width: auto;
+    height: auto;
+    border-radius: 10px; 
+}
+.ARYY{
+    width: auto;
+    height: auto;
+    
+    border-radius: 10px; 
+}
+.GATO{
+        width: auto;
+    height: auto;
+   
+    border-radius: 10px; 
+}
+.ALO{
+    width: auto;
+    height: auto;
+   
+    border-radius: 10px; 
+}
+.NEGRO{
+    width: auto;
+    height: auto;
+   
+    border-radius: 10px; 
+}
+.WOW{
+    width: auto;
+    height: auto;
+   
+    border-radius: 10px; 
+}
+.LOLO{
+       width: auto;
+    height: auto;
+   
+    border-radius: 10px; 
+}
+.lobo{
+    width: 900px;
+    height: 600px;
+    border-radius: 10px; 
+}
+.lulu{
+     width: auto;
+    height: auto;
+   
+    border-radius: 10px; 
+}
+.mmm{
+     width: auto;
+    height: auto;
+   
+    border-radius: 10px; 
+}
+.lll{
+    text-align: center; border: 2px;
+    width: auto;
+    height: auto;
+
+}
+.ppp{
+     width: 300px;
+    height: 300px;
+    border-radius: 20px; 
+}
+.eee{
+     width: 300px;
+    height: 300px;
+  
+    border-radius: 20px; 
+}
+.www{
+     width: 300px;
+    height: 300px;
+   
+    border-radius: 20px; 
+}
+.xxx{
+     width: 300px;
+    height: 300px;
+  
+    border-radius: 20px; 
+}
+.vista1{
+    align-items: center;
+}
+.galeria_expo{
+display: flex;
+padding-left: 400px;
+width: 1000px;
+height: 800px;
+}
+.galeria_expo img{
+width: 0px;
+flex-grow: 1;
+object-fit: cover;
+filter: brightness(80%);
+transition: .7s ease;
+}
+.galeria_expo img:hover{
+    width: 500px;
+    opacity: 1;
+    filter: brightness(130%);
+}
